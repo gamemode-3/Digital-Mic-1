@@ -5,3 +5,5 @@ This is an implementation of the Mic-1 architecture from [Structured Computer Ar
 All IJVM instructions are implemented in MAL, although i do not guarantee that it is without issues. I used my hacked together [MAL compiler](https://github.com/gamemode-3/mal-compiler) to translate from MAL-adjacent code into the corresponding control store bits.
 
 You need to initialize the storage or it will be all zeros.
+
+![Screenshot of the Mic-1](assets/Screenshot from 2024-02-21 14-32-45.png)
