@@ -400,10 +400,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>NF</string>
+          <string>ZF</string>
         </entry>
       </elementAttributes>
-      <pos x="1640" y="760"/>
+      <pos x="1640" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -434,10 +434,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ZF</string>
+          <string>NF</string>
         </entry>
       </elementAttributes>
-      <pos x="1640" y="720"/>
+      <pos x="1640" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
