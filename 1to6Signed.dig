@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>I</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>O</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,5</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="620"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="640" y="600"/>
+      <p2 x="780" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="600"/>
+      <p2 x="940" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="620"/>
+      <p2 x="780" y="620"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

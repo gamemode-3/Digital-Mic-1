@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>32bExpand.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>In</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32, 1, 1, 1, 1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>36</string>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Out</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>36</int>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="400"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="860" y="400"/>
+      <p2 x="900" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="400"/>
+      <p2 x="940" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="480"/>
+      <p2 x="900" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="420"/>
+      <p2 x="880" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="420"/>
+      <p2 x="900" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="440"/>
+      <p2 x="900" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="380"/>
+      <p2 x="720" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="380"/>
+      <p2 x="860" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="380"/>
+      <p2 x="760" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="460"/>
+      <p2 x="900" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="380"/>
+      <p2 x="720" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="420"/>
+      <p2 x="880" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="440"/>
+      <p2 x="880" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="460"/>
+      <p2 x="880" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="380"/>
+      <p2 x="860" y="400"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
