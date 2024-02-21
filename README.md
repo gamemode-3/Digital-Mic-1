@@ -6,4 +6,4 @@ All IJVM instructions are implemented in MAL, although i do not guarantee that i
 
 You need to initialize the storage or it will be all zeros.
 
-![Screenshot of the Mic-1](assets/Screenshot from 2024-02-21 14-32-45.png)
+![Screenshot of the Mic-1](https://github.com/gamemode-3/Digital-Mic-1/blob/main/assets/Screenshot%20from%202024-02-21%2014-32-45.png)
